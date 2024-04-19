@@ -1,0 +1,608 @@
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .img {
+        width: 103% !important;
+        height: 100vh !important;
+        background-color: #01253d;
+        background-image: linear-gradient(to bottom, rgb(1, 37, 61) 60%, transparent), url(https://res.cloudinary.com/dnvykpdlo/image/upload/v1711964046/Rafico/top-img-home_bgw3pw.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+
+
+    }
+
+    .heading {
+        font-size: 35px;
+        position: absolute;
+        top: 0rem;
+        right: 3rem;
+
+
+    }
+
+    .discreption {
+        position: absolute;
+        right: 6rem;
+        top: 17rem;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .containers {
+        width: 100%;
+        height: auto !important;
+        margin-top: 2rem;
+
+    }
+
+    .right-side {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    .left-side {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-heading {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .intro-heading {
+        font-size: 2.5rem;
+    }
+
+    .introduction-dis {
+        font-size: 18px !important;
+    }
+
+
+    .intro-btn {
+        width: 123px !important;
+        height: 42px !important;
+        font-size: 12px !important;
+        padding: 10px !important;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 0 !important;
+
+    }
+
+    .quality-card {
+        width: 100% !important;
+        height: 40vh !important;
+    }
+
+
+    .location-cards {
+        width: 20rem !important;
+        height: 25vh !important;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+
+    .cardhedaing {
+        color: white;
+        font-size: 17px;
+        line-height: 21.63px;
+        font-weight: 500;
+    }
+
+    .text-white {
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: small !important;
+    }
+
+    .containerimage {
+        width: 100%;
+        height: 16vh;
+    }
+
+    .card-heading2 {
+        top: 1rem !important;
+    }
+
+    .heading-text {
+        font-weight: 500;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .second-cards {
+        top: 0rem !important;
+
+    }
+
+    .core-values-icon1 {
+
+        width: 70px;
+        height: 69px;
+        background-size: cover;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-right: 15rem;
+        margin-top: 1rem;
+
+    }
+
+    .log-images1 {
+        width: 70px;
+        height: 58px;
+    }
+
+    .inner-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second-card-text {
+        width: 15rem;
+    }
+
+    .logosection {
+        top: 2rem;
+        height: 20vh;
+    }
+
+    .Choose-us {
+        top: 2rem !important;
+        height: 150vh;
+    }
+
+    .list-card1 {
+        position: relative;
+        width: 100%;
+        height: auto;
+        top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .card-list {
+        width: 100%;
+    }
+
+    .list-card2 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        position: relative;
+        bottom: 2rem !important;
+    }
+
+    .col-sm.footerdis {
+        margin: 0 !important;
+    }
+
+    .footer-side {
+        height: auto;
+    }
+
+    .footer-container {
+
+        height: auto;
+    }
+
+    .email-call {
+        width: 80% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+
+    }
+
+    .page-header {
+        margin-top: 6rem !important;
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+
+
+
+}
+
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .img {
+        width: 103% !important;
+        height: 100vh !important;
+        background-color: #01253d;
+        background-image: linear-gradient(to bottom, rgb(1, 37, 61) 55%, transparent), url(https://res.cloudinary.com/dnvykpdlo/image/upload/v1711964046/Rafico/top-img-home_bgw3pw.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+
+
+    }
+
+    .heading {
+        font-size: 40px;
+        position: absolute;
+        top: 0rem;
+        right: 3rem;
+
+
+    }
+
+    .discreption {
+        position: absolute;
+        right: 6rem;
+        top: 16rem;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .containers {
+        width: 100%;
+        height: auto !important;
+        margin-top: 2rem;
+
+    }
+
+    .right-side {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    .left-side {
+        width: 100%;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-heading {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .intro-btn {
+        width: 123px !important;
+        height: 42px !important;
+        font-size: 12px !important;
+        padding: 0 !important;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 0 !important;
+
+    }
+
+    .card {
+        width: 27rem !important;
+        height: 25vh !important;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+
+    .cardhedaing {
+        color: white;
+        font-size: 17px;
+        line-height: 21.63px;
+        font-weight: 500;
+    }
+
+    .text-white {
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: small !important;
+    }
+
+    .containerimage {
+        width: 100%;
+        height: 33vh;
+    }
+
+    .card-heading2 {
+        top: 1rem !important;
+    }
+
+    .heading-text {
+        font-weight: 500;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .second-cards {
+        top: 0rem !important;
+
+    }
+
+    .core-values-icon1 {
+
+        width: 70px;
+        height: 69px;
+        background-size: cover;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-right: 21rem;
+
+    }
+
+    .quality-card {
+        width: 100% !important;
+        height: 27vh !important;
+    }
+
+
+
+    .inner-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+    }
+
+    .second-card-text {
+        width: 15rem;
+    }
+
+    .logosection {
+        top: 2rem;
+        height: 30vh;
+    }
+
+    .Choose-us {
+        top: 2rem !important;
+        height: 170vh;
+    }
+
+    .list-card1 {
+        position: relative;
+        width: 100%;
+        height: auto;
+        top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .card-list {
+        width: 100%;
+    }
+
+    .list-card2 {
+        position: relative;
+        width: 100%;
+        height: auto;
+        top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .col-sm.footerdis {
+        margin: 0 !important;
+    }
+
+    .footer-side {
+        height: auto !important;
+    }
+
+    .footer-container {
+        height: auto !important;
+    }
+
+    .email-call {
+        width: 70% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+
+    }
+
+    .page-header {
+        margin-top: 6rem !important;
+        width: 100%;
+    }
+    .introduction-dis {
+        width: 100% !important;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 400px) and (min-height: 738px) {
+
+    .img {
+        width: 103% !important;
+        height: 100vh !important;
+        background-color: #01253d;
+        background-image: linear-gradient(to bottom, rgb(1, 37, 61) 70%, transparent), url(https://res.cloudinary.com/dnvykpdlo/image/upload/v1711964046/Rafico/top-img-home_bgw3pw.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+
+
+    }
+
+
+    .footer-side {
+        height: auto !important;
+    }
+
+    .footer-container {
+
+        height: auto !important;
+    }
+
+    .discreption {
+        top: 18 rem;
+        font-size: 20px;
+    }
+
+    
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .img {
+        width: 100%;
+        height: 98vh;
+        background-color: #01253d;
+        background-image: linear-gradient(to right, rgb(1, 37, 61) 40%, transparent), url(https://res.cloudinary.com/dnvykpdlo/image/upload/v1711964046/Rafico/top-img-home_bgw3pw.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        background-size: 100%;
+
+    }
+
+    .heading {
+        font-size: 2.5rem !important;
+        right: 2rem !important;
+
+    }
+
+    .discreption {
+        width: 100%;
+        right: 4rem;
+        top: 15rem;
+
+    }
+
+
+    .containers {
+        margin-top: 2rem !important;
+    }
+
+    .cards {
+        width: 100%;
+        height: 80vh !important;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0rem !important;
+
+    }
+
+    .location-cards {
+        width: 100% !important;
+
+    }
+
+    .containerimage {
+        margin-top: 40rem !important;
+    }
+
+    .heading-text {
+        position: relative;
+        bottom: 8rem;
+    }
+
+    .second-cards {
+        top: 0rem !important;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quality-card {
+        width: 100% !important;
+    }
+
+    .core-values-icon1 {
+        position: relative;
+        display: flex;
+        right: 15rem !important;
+        top: 1rem !important;
+    }
+
+    .inner-card {
+        width: 100% !important;
+        height: 26vh !important;
+        position: relative;
+        left: 5rem !important;
+    }
+
+    .second-card-text {
+        width: 37rem;
+    }
+
+    .card-heading {
+        margin-top: 2rem !important;
+        width: 80% !important;
+    }
+
+    .list-card2 {
+        gap: 3rem !important;
+    }
+
+    .footer-side {
+        height: auto !important;
+    }
+
+    .footer-container {
+        height: auto !important;
+    }
+   .page-header{
+    margin-top: 3rem !important;
+   }
+}
+ 
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}  
+
+
