@@ -644,7 +644,7 @@ ul {
   margin-top: 2rem;
   background-color:#f4f4f4;
   position: relative;
-  background-image: url(/contacts_us-map.png);
+  background-image: url('./contacts_us-map.png');
   background-position: bottom;
   background-size: contain;
 }
