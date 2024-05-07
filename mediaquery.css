@@ -1,8 +1,7 @@
-
 @media (min-width: 320px) and (max-width: 480px) {
 
     .img {
-        width: 103% !important;
+        width: 100% !important;
         height: 100vh !important;
         background-color: #01253d;
         background-image: linear-gradient(to bottom, rgb(1, 37, 61) 66%, transparent), url(https://res.cloudinary.com/dnvykpdlo/image/upload/v1711964046/Rafico/top-img-home_bgw3pw.png);
@@ -224,11 +223,39 @@
         margin-top: 6rem !important;
         width: 100%;
     }
-    
+
 
     body {
         width: 100%;
     }
+
+
+    /* about.... */
+
+    .shoes-image {
+        background-image: url('./top-about-img-mobile.png') !important;
+        height: 35vh;
+        position: relative;
+    }
+    .top-container{
+        top: 8rem;
+        font-size:30px;
+        width: 70%;
+        padding:1rem;
+        
+    }
+    .about-containers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    
+
+
+
+
+
 
 
 
@@ -241,7 +268,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
 
     .img {
-        width: 103% !important;
+        width: 100% !important;
         height: 100vh !important;
         background-color: #01253d;
         background-image: linear-gradient(to bottom, rgb(1, 37, 61) 55%, transparent), url(https://res.cloudinary.com/dnvykpdlo/image/upload/v1711964046/Rafico/top-img-home_bgw3pw.png);
@@ -453,6 +480,7 @@
         margin-top: 6rem !important;
         width: 100%;
     }
+
     .introduction-dis {
         width: 100% !important;
     }
@@ -466,7 +494,7 @@
 @media (min-width: 400px) and (min-height: 738px) {
 
     .img {
-        width: 103% !important;
+        width: 100% !important;
         height: 100vh !important;
         background-color: #01253d;
         background-image: linear-gradient(to bottom, rgb(1, 37, 61) 70%, transparent), url(https://res.cloudinary.com/dnvykpdlo/image/upload/v1711964046/Rafico/top-img-home_bgw3pw.png);
@@ -492,7 +520,7 @@
         font-size: 20px;
     }
 
-    
+
 
 
 }
@@ -595,15 +623,12 @@
     .footer-container {
         height: auto !important;
     }
-   .page-header{
-    margin-top: 3rem !important;
-   }
+
+    .page-header {
+        margin-top: 3rem !important;
+    }
 }
- 
 
 
-@media (min-width: 1025px) and (max-width: 1280px) {
 
-}  
-
-
+@media (min-width: 1025px) and (max-width: 1280px) {}
