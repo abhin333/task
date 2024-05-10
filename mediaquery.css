@@ -6,6 +6,7 @@
         margin: 0;
         padding: 0;
         width: 100% !important;
+        height: auto !important;
         background-color: #f4f4f4 !important;
         box-sizing: border-box;
     }
@@ -29,16 +30,17 @@
         left: 0rem;
     }
 
-    .heading-content{
+    .heading-content {
         width: 100%;
-        height:30vh;
+        height: 30vh;
         position: absolute;
     }
+
     .heading {
         font-size: 35px;
         position: absolute;
-        top: 3rem;  
-        right:0rem;
+        top: 3rem;
+        right: 0rem;
     }
 
     .discreption {
@@ -257,6 +259,7 @@
         background-image: url('./top-about-img-mobile.png') !important;
         height: 35vh;
         position: relative;
+        background-size: cover;
     }
 
     .top-container {
@@ -267,17 +270,151 @@
 
     }
 
+    .about-container {
+        display: flex;
+        width: 100% !important;
+        height: 100vh !important;
+        position: relative;
+        padding-top: 0rem !important;
+        margin: 0rem;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+
     .about-containers {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
+        width: 100% !important;
+        height: 100vh !important;
+        background-color: #f4f4f4;
 
     }
 
+    .about-left-side {
+        width: 100%;
+        animation: left1;
+        height: auto;
+        animation-duration: 2s;
+        bottom: 10rem;
+    }
+
+    .about-right-side {
+        width: 100%;
+        animation: right1;
+        animation-duration: 2s;
+        height: auto;
+        bottom: 13rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 6rem;
+    }
 
 
+    .about-left-heading {
+        width: 90%;
+        height: auto;
+
+    }
+
+    .about-introduction-dis {
+        padding-top: 1rem;
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        color: #666c89;
+    }
 
 
+    .about-container2 {
+        display: flex;
+        width: 100% !important;
+        height: 100vh !important;
+        position: relative;
+        padding: 1rem;
+        
+    }
+
+    .about-containers2 {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        width: 100% !important;
+        height: 100vh !important;
+        background-color:white;
+        position: absolute;
+        gap: 3rem;
+
+    }
+    
+    
+.about-left-side2 {
+    width:100%;
+    height: auto;
+    animation: left1;
+    animation-duration: 2s;
+    position: relative;
+  }
+  
+  .about-right-side2 {
+    width: 100%;
+    height: auto;
+    animation: right1;
+    animation-duration: 2s;
+    position: relative;
+  }
+  
+  .about-introduction-dis2 {
+    padding-top: 1rem;
+    width: 100%;
+    color: #666c89;
+  }
+
+  
+.ourvision-container {
+    width: 100%;
+    height: auto!important;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .our-vision {
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .our-mission {
+    width: 100%;
+    height: auto;
+    background-color: #01253d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .dis {
+    width: 40%;
+    height: auto;
+    margin-top: 2rem;
+  }
+  .about-logosection {
+    height: auto;
+    position: relative;
+    top: 0rem;
+   
+  
+  }
 
 
 
@@ -289,6 +426,15 @@
 
 
 @media (min-width: 481px) and (max-width: 767px) {
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+        height: auto !important;
+        background-color: #f4f4f4 !important;
+        box-sizing: border-box;
+    }
 
     .img {
         width: 100% !important;
@@ -508,6 +654,172 @@
         width: 100% !important;
     }
 
+
+     /* about.... */
+
+     .shoes-image {
+        background-image: url('./top-about-img-mobile.png') !important;
+        height: 50vh;
+        position: relative;
+    }
+
+    .top-container {
+        top: 14rem;
+        font-size: 43px;
+        width: 70%;
+        padding: 1rem;
+
+    }
+
+    .about-container {
+        display: flex;
+        width: 100% !important;
+        height: 100vh !important;
+        position: relative;
+        padding-top: 0rem !important;
+        margin: 0rem;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+
+    .about-containers {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100% !important;
+        height: 100vh !important;
+        background-color: #f4f4f4;
+
+    }
+
+    .about-left-side {
+        width: 100%;
+        animation: left1;
+        height: auto;
+        animation-duration: 2s;
+        bottom: 10rem;
+    }
+
+    .about-right-side {
+        width: 100%;
+        animation: right1;
+        animation-duration: 2s;
+        height: auto;
+        bottom: 13rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 6rem;
+    }
+
+
+    .about-left-heading {
+        width: 90%;
+        height: auto;
+
+    }
+
+    .about-introduction-dis {
+        padding-top: 1rem;
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        color: #666c89;
+    }
+
+
+    .about-container2 {
+        display: flex;
+        width: 100% !important;
+        height: 100vh !important;
+        position: relative;
+        padding: 1rem 0 0 0 !important;
+        
+    }
+
+    .about-containers2 {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        width: 100% !important;
+        height: 100vh !important;
+        background-color:white;
+        position: absolute;
+        gap: 3rem;
+
+    }
+    
+    
+.about-left-side2 {
+    width:100%;
+    height: auto;
+    animation: left1;
+    animation-duration: 2s;
+    position: relative;
+  }
+  
+  .about-right-side2 {
+    width: 100%;
+    height: auto;
+    animation: right1;
+    animation-duration: 2s;
+    position: relative;
+  }
+  
+  .about-introduction-dis2 {
+    padding-top: 1rem;
+    width: 100%;
+    color: #666c89;
+  }
+
+  
+.ourvision-container {
+    width: 100%;
+    height: auto!important;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .our-vision {
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .our-mission {
+    width: 100%;
+    height: auto;
+    background-color: #01253d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .dis {
+    width: 40%;
+    height: auto;
+    margin-top: 2rem;
+  }
+  .about-logosection {
+    height: 25vh;
+    position: relative;
+    top: 0rem;
+   
+  
+  }
+
+
+
+
 }
 
 
@@ -542,9 +854,17 @@
         top: 18 rem;
         font-size: 20px;
     }
+    
+     /* about....
 
-
-
+     .shoes-image {
+        background-image: url('./top-about-img-mobile.png') !important;
+        height: 40vh;
+        position: relative;
+    }
+    .top-container{
+        top: 11rem ;
+    } */
 
 }
 
@@ -650,6 +970,193 @@
     .page-header {
         margin-top: 3rem !important;
     }
+
+    /* about.... */
+    .shoes-image {
+        background-image: url('./top-about-img-mobile.png') !important;
+        height: 68vh !important;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+    }
+    .ourvision-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        position: absolute;
+        top: 116rem;
+    }
+    .about-left-side {
+        width: 50%;
+        animation: left1;
+        animation-duration: 2s;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-right-side2 {
+        width: 50%;
+        animation: left1;
+        animation-duration: 2s;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dis{
+        height: 30vh;
+    }
+
+    
+}
+@media (min-width: 768px) and (max-width: 1024px)  {
+    .img {
+        width: 100%;
+        height: 98vh;
+        background-color: #01253d;
+        background-image: linear-gradient(to right, rgb(1, 37, 61) 40%, transparent), url(https://res.cloudinary.com/dnvykpdlo/image/upload/v1711964046/Rafico/top-img-home_bgw3pw.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        background-size: 100%;
+
+    }
+
+    .heading {
+        font-size: 2.5rem !important;
+        right: 2rem !important;
+
+    }
+
+    .discreption {
+        width: 100%;
+        right: 4rem;
+        top: 15rem;
+
+    }
+
+
+    .containers {
+        margin-top: 2rem !important;
+    }
+
+    .cards {
+        width: 100%;
+        height: 80vh !important;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0rem !important;
+
+    }
+
+    .location-cards {
+        width: 100% !important;
+
+    }
+
+    .containerimage {
+        margin-top: 40rem !important;
+    }
+
+    .heading-text {
+        position: relative;
+        bottom: 8rem;
+    }
+
+    .second-cards {
+        top: 0rem !important;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quality-card {
+        width: 100% !important;
+    }
+
+    .core-values-icon1 {
+        position: relative;
+        display: flex;
+        right: 15rem !important;
+        top: 1rem !important;
+    }
+
+    .inner-card {
+        width: 100% !important;
+        height: 26vh !important;
+        position: relative;
+        left: 5rem !important;
+    }
+
+    .second-card-text {
+        width: 37rem;
+    }
+
+    .card-heading {
+        margin-top: 2rem !important;
+        width: 80% !important;
+    }
+
+    .list-card2 {
+        gap: 3rem !important;
+    }
+
+    .footer-side {
+        height: auto !important;
+    }
+
+    .footer-container {
+        height: auto !important;
+    }
+
+    .page-header {
+        margin-top: 3rem !important;
+    }
+
+    /* about.... */
+    .shoes-image {
+        background-image: url('./top-about-img-mobile.png') !important;
+        height: 68vh !important;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+    }
+    .ourvision-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        position: absolute;
+        top: 116rem;
+    }
+    .about-left-side {
+        width: 50%;
+        animation: left1;
+        animation-duration: 2s;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-right-side2 {
+        width: 50%;
+        animation: left1;
+        animation-duration: 2s;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dis{
+        height: 30vh;
+    }
+    .ourvision-container{
+        top:124rem;
+    }
+    .about-logosection {
+        bottom: 0rem !important;
+    }
+
+    
 }
 
 
