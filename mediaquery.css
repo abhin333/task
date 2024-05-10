@@ -334,6 +334,7 @@
         height: 100vh !important;
         position: relative;
         padding: 1rem;
+        justify-content: center;
         
     }
 
