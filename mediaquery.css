@@ -417,10 +417,121 @@
   
   }
 
+/* ****contact******** */
+
+.contact-banner {
+    height: 35vh;
+    background-image:url('./top-contact-img-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    background-position: bottom;
+  }
+  .contact-container{
+    height:auto;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 5rem;
+   
+    
+  }
+  .contact-body {
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  
 
 
-
-
+}
+.contact-left {
+    width: 100%;
+    height:auto;
+  
+  }
+  
+  .contact-right {
+    width: 100% ;
+    height:auto;
+    display: flex;
+    justify-content: center;
+  
+    
+  }
+  .contact-discreption {
+    width: 100%;
+    height: 28vh;
+  }
+  .registration-from {
+    width: 100%;
+    height: auto;
+    background-color: #01253d;
+    border-radius: 12px;
+    color: white;
+  }
+  
+.custom-placeholder {
+    margin-top: 1.5rem;
+    width: 100% !important;
+    color: white !important;
+    font-family: 'Times New Roman', Times, serif;
+  
+  }
+  .text-area::placeholder {
+    position: relative;
+    bottom: 5rem;
+  }
+  .submit-btn {
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 1rem;
+  
+  }
+  .contact-btn {
+    width: 100%;
+    height: 54px;
+    background: #eb143e;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .map{
+    width: 100%;
+    height: 100vh;
+    background-color:#f4f4f4;
+    position: relative;
+    background-image: url('./contacts_us-map.png');
+    background-position: bottom;
+    background-size: contain;
+  }
+  .map-heading{
+    width: 100%;
+    height:30vh;
+    position: absolute;
+    bottom: 42rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .heading-child{
+    width: 70%;
+    height:auto;
+    font-family: "Rubik";
+  }
+  .contact-logosection{
+    height: 20vh;
+  }
+  
+  
 }
 
 
